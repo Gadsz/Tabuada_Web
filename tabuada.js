@@ -11,7 +11,8 @@ frm.addEventListener("submit", (e) => {
     let resposta = ""
     //cria um laço de repetiçãio iniciando de 1 até 10
     for (let i = 1; i <=10; i++) {
-        resposta += numero + "X" + i + "=" + (numero*i) + "\n";
+        //resposta += numero + "X" + i + "=" + (numero*i) + "\n";
+        reposta = `${resposta} ${numero} x ${numero * i}\n`
         console.log(resposta)
     }
     //alterar o conteúdo da tag pre
